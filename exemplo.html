@@ -1,0 +1,19 @@
+<!-- Criamos um container com duas colunas usando o Bootstrap -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <!-- Aqui criamos um card para ser o container do nosso imagem arrastável -->
+      <div class="card" id="drag-container">
+        <!-- Adicionamos a imagem arrastável -->
+        <img class="card-img-top" id="draggable-image" src="draggable-image.png" draggable="true">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <!-- Aqui criamos outro card para ser o container onde a imagem arrastável será solta -->
+      <div class="card" id="drop-container">
+        <!-- Adicionamos a imagem de destino -->
+        <img class="card-img-top" id="target-image" src="target-image.png">
+      </div>
+    </div>
+  </div>
+</div>
