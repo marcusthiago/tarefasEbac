@@ -25,6 +25,8 @@ HTML:
     </div>
   </div>
 </div>
+
+
 JavaScript:
 
 // Obtemos a referência para a imagem arrastável
